@@ -171,6 +171,13 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       }
     },
     {
+      info: 'mangata',
+      text: t('rpc.mangata', 'Mangata Testnet', { ns: 'apps-config' }),
+      providers: {
+        'Mangata Testnet': 'wss://v4-prod-collator-01.mangatafinance.cloud'
+      }
+    },
+    {
       info: 'mathchain',
       text: t('rpc.prod.mathchain', 'MathChain', { ns: 'apps-config' }),
       providers: {
